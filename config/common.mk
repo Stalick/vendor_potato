@@ -106,6 +106,10 @@ PRODUCT_PACKAGES += \
     mkfs.exfat
 endif
 
+# RRO Overlays
+PRODUCT_PACKAGES += \
+    NavigationBarModeGesturalOverlayFS
+
 # Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/potato/overlay/common
 PRODUCT_ENFORCE_RRO_TARGETS += framework-res
